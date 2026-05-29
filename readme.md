@@ -59,8 +59,8 @@ With zero config, Scribe uses the built-in **Scribe Narrator** (ADO) and **Scrib
     version: 1
 
     services:
-      story: my-custom-narrator    # your agent's filename without .agent.md
-      fix: scribe-patcher          # keep the default
+      story: My Custom Narrator    # your agent's display name
+      fix: Scribe Patcher          # keep the default
     ```
 
 3. Invoke Scribe normally — it picks up the override automatically.
