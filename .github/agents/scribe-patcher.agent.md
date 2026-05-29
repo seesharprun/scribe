@@ -2,7 +2,7 @@
 name: Scribe Patcher
 description: 'Implements a documentation fix locally, creates a branch, pushes it, and opens a pull request on GitHub linking to the Azure DevOps work item.'
 user-invocable: false
-disable-model-invocation: true
+disable-model-invocation: false
 tools: ['read', 'edit', 'search', 'execute', 'github/*']
 ---
 

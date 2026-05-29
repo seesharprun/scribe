@@ -2,7 +2,7 @@
 name: Scribe Narrator
 description: 'Drafts a structured user story from a documentation problem report and creates a work item in Azure DevOps.'
 user-invocable: false
-disable-model-invocation: true
+disable-model-invocation: false
 tools: ['read', 'search', 'ado/*']
 ---
 

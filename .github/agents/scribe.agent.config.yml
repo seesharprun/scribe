@@ -11,7 +11,7 @@ version: 1.0.0
 
 services:
   # story: Raw problem description → work item ID + URL
-  story: scribe-narrator
+  story: Scribe Narrator
 
   # fix: Problem description + work item ID → PR URL
-  fix: scribe-patcher
+  fix: Scribe Patcher

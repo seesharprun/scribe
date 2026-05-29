@@ -3,7 +3,7 @@ name: Scribe
 description: 'Docs triage orchestrator — describe a documentation problem and Scribe will draft a user story in Azure DevOps and ship a fix PR via GitHub. Sub-agents are swappable via scribe.agent.config.yml.'
 user-invocable: true
 tools: ['read', 'agent']
-agents: ['Scribe Narrator', 'Scribe Patcher']
+agents: ['Scribe Narrator', 'Scribe Patcher', '*']
 ---
 
 # Scribe
