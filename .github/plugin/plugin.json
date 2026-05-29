@@ -1,0 +1,16 @@
+{
+  "name": "scribe",
+  "description": "Docs triage orchestrator with swappable sub-agents. Drafts user stories in Azure DevOps and ships fix PRs via GitHub — each step customizable through dependency injection.",
+  "version": "1.0.0",
+  "keywords": ["orchestrator", "dependency-injection", "docs-triage", "azure-devops", "github"],
+  "author": {
+    "name": "Sidney Andrews"
+  },
+  "repository": "https://github.com/seesharprun/scribe",
+  "license": "MIT",
+  "agents": [
+    "./.github/agents/scribe.agent.md",
+    "./.github/agents/scribe-narrator.agent.md",
+    "./.github/agents/scribe-patcher.agent.md"
+  ]
+}

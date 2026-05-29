@@ -1,0 +1,17 @@
+# Scribe service registry — maps capability slots to sub-agent implementations.
+# Override any slot by creating this file at:
+#   ~/.agents/scribe.agent.config.yml        (user-level, highest priority)
+#   .github/agents/scribe.agent.config.yml   (repo-level)
+# Plugin defaults (this file) are used when no override is found.
+#
+# Versioning: major version bumps indicate breaking contract changes.
+# See readme.md for slot contracts.
+
+version: 1.0.0
+
+services:
+  # story: Raw problem description → work item ID + URL
+  story: scribe-narrator
+
+  # fix: Problem description + work item ID → PR URL
+  fix: scribe-patcher
