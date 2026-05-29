@@ -59,7 +59,7 @@ With zero config, Scribe uses the built-in **Scribe Narrator** (ADO) and **Scrib
     version: 1
 
     services:
-      story: My Custom Narrator    # your agent's display name
+      story: My Custom Narrator    # your agent's name
       fix: Scribe Patcher          # keep the default
     ```
 
